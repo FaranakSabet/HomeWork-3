@@ -14,7 +14,7 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color:rgba(231, 204, 115, 0.603);
+  background-color: White;
 }
 
 .wrapper {
@@ -62,7 +62,7 @@ header {
   content: " ";
   display: block;
   width: 100%;
-  background:rgb(146, 160, 18);
+  background: rgb(146, 160, 18);
   height: 2px;
 }
 
@@ -73,7 +73,7 @@ header {
 }
 
 .btn {
-  border:none;
+  border: none;
   background-color: rgb(51, 37, 37);
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.8) 0px 1px 6px 0px rgba(0, 0, 0, 0.8) 0px 1px 1px
@@ -86,7 +86,6 @@ header {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
-  
 }
 
 button[disabled] {
@@ -117,7 +116,6 @@ button[disabled] {
   border-radius: 20px;
   resize: none;
   overflow: hidden;
-  
 }
 
 @media (max-width: 690px) {

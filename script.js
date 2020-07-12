@@ -152,7 +152,7 @@ var generateBtn = document.querySelector("#generate");
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
-  alert(generatePassword());
+  //alert(generatePassword());
 
   passwordText.value = password;
 }
